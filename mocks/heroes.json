@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "intro": "Hello I’m Joe Martinez ",
+        "smallBio": "I am a UI Engineer at Google, where I design and develop user-centered interfaces for cutting-edge technology products. I work with a talented team to create visually appealing and intuitive designs that enhance user experience. I am passionate about using technology to create beautiful and functional designs that solve real-world problems.",
+        "createdAt": "2023-12-03T18:40:28.181Z",
+        "updatedAt": "2023-12-03T18:40:39.041Z",
+        "publishedAt": "2023-12-03T18:40:39.036Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 2,
+              "attributes": {
+                "name": "CSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 3,
+              "attributes": {
+                "name": "JavaSacript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}
