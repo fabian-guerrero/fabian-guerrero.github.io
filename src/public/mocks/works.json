@@ -24,16 +24,34 @@
             {
               "id": 2,
               "attributes": {
-                "name": "CSS",
+                "name": "SCSS",
                 "createdAt": "2023-11-29T02:19:52.054Z",
                 "updatedAt": "2023-11-29T02:19:52.054Z",
                 "publishedAt": "2023-12-01T03:12:32.226Z"
               }
             },
             {
-              "id": 3,
+              "id": 6,
               "attributes": {
-                "name": "JavaSacript",
+                "name": "Handlebars",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
                 "createdAt": "2023-11-29T02:20:12.978Z",
                 "updatedAt": "2023-11-29T02:20:12.978Z",
                 "publishedAt": "2023-12-01T03:12:32.226Z"
@@ -71,16 +89,34 @@
             {
               "id": 2,
               "attributes": {
-                "name": "CSS",
+                "name": "SCSS",
                 "createdAt": "2023-11-29T02:19:52.054Z",
                 "updatedAt": "2023-11-29T02:19:52.054Z",
                 "publishedAt": "2023-12-01T03:12:32.226Z"
               }
             },
             {
-              "id": 3,
+              "id": 6,
               "attributes": {
-                "name": "JavaSacript",
+                "name": "Handlebars",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
                 "createdAt": "2023-11-29T02:20:12.978Z",
                 "updatedAt": "2023-11-29T02:20:12.978Z",
                 "publishedAt": "2023-12-01T03:12:32.226Z"
@@ -105,7 +141,44 @@
         "updatedAt": "2023-11-29T02:40:02.184Z",
         "publishedAt": "2023-12-01T03:21:06.305Z",
         "technologies": {
-          "data": []
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Javascript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Axero platform",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
         }
       },
       "image": {
@@ -124,7 +197,62 @@
         "updatedAt": "2023-11-29T02:40:22.573Z",
         "publishedAt": "2023-12-03T22:56:42.914Z",
         "technologies": {
-          "data": []
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 6,
+              "attributes": {
+                "name": "Handlebars",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 8,
+              "attributes": {
+                "name": "React",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
         }
       },
       "image": {
@@ -143,7 +271,44 @@
         "updatedAt": "2023-11-29T02:40:22.573Z",
         "publishedAt": "2023-12-03T22:56:42.914Z",
         "technologies": {
-          "data": []
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 7,
+              "attributes": {
+                "name": "Vue",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
         }
       },
       "image": {
@@ -162,7 +327,44 @@
         "updatedAt": "2023-11-29T02:40:22.573Z",
         "publishedAt": "2023-12-03T22:56:42.914Z",
         "technologies": {
-          "data": []
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
         }
       },
       "image": {
