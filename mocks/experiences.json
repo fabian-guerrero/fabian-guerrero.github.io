@@ -3,12 +3,12 @@
     {
       "id": 1,
       "attributes": {
-        "companyName": "Company 01",
-        "companyUrl": "Company URL",
-        "positionName": "Position Name",
-        "positionStart": "2023-11-01",
-        "positionEnd": "2023-11-01",
-        "positionDescription": "- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo tortor augue, in mollis velit auctor sed. Praesent ut convallis odio. Quisque odio odio, iaculis non dui a, finibus commodo mauris. \n- Fusce aliquam neque lacus. Quisque vel vestibulum magna. Duis venenatis at sem nec blandit. Phasellus in lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam nibh velit, commodo at mattis ut, vehicula et justo. \n- Nam tellus ligula, tristique a dolor vel, finibus lobortis purus. Integer et interdum tellus. Quisque eget cursus mauris.",
+        "companyName": ".monks",
+        "companyUrl": "https://www.monks.com/",
+        "positionName": "Front-End Developer",
+        "positionStart": "2015-09-01",
+        "positionEnd": "2024-11-01",
+        "positionDescription": "- Developed and planned websites and web applications, ensuring a seamless user experience across multiple devices.\n- Optimized performance, quality, and maintenance of existing projects, with the goal of improving website loading speed by 30%.\n- Collaborated with cross-functional teams to implement modern design standards, contributing to a 20% reduction in bounce rates on key client projects.\n- Front-end development for client projects, focusing on building scalable, maintainable codebases that adhere to the latest accessibility and web standards.\n- Created email templates for marketing campaigns, aiming to increase email open rates by 15% through more engaging and responsive designs.",
         "createdAt": "2023-11-29T02:44:38.146Z",
         "updatedAt": "2023-12-03T04:17:35.206Z",
         "publishedAt": "2023-12-01T03:09:46.796Z"
@@ -21,12 +21,12 @@
     {
       "id": 2,
       "attributes": {
-        "companyName": "Company 02",
-        "companyUrl": "Company URL",
-        "positionName": "Position Name",
-        "positionStart": "2023-11-01",
-        "positionEnd": "2023-11-01",
-        "positionDescription": "- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo tortor augue, in mollis velit auctor sed. Praesent ut convallis odio. Quisque odio odio, iaculis non dui a, finibus commodo mauris. \n- Fusce aliquam neque lacus. Quisque vel vestibulum magna. Duis venenatis at sem nec blandit. Phasellus in lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam nibh velit, commodo at mattis ut, vehicula et justo. \n- Nam tellus ligula, tristique a dolor vel, finibus lobortis purus. Integer et interdum tellus. Quisque eget cursus mauris.",
+        "companyName": "Insite Latin America",
+        "companyUrl": "https://www.insite-la.com/",
+        "positionName": "Front-End Developer",
+        "positionStart": "2014-11-01",
+        "positionEnd": "2015-08-01",
+        "positionDescription": "- Implemented page layouts and web designs for new sites. \n- Updated content and design of existing websites. \n- Developed email templates and generated reports for email marketing campaigns.",
         "createdAt": "2023-11-29T02:45:08.220Z",
         "updatedAt": "2023-12-01T03:09:58.954Z",
         "publishedAt": "2023-12-01T03:09:58.948Z"
@@ -39,12 +39,12 @@
     {
       "id": 3,
       "attributes": {
-        "companyName": "Company 03",
-        "companyUrl": "Company URL",
-        "positionName": "Position Name",
-        "positionStart": "2023-11-01",
-        "positionEnd": "2023-11-01",
-        "positionDescription": "- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo tortor augue, in mollis velit auctor sed. Praesent ut convallis odio. Quisque odio odio, iaculis non dui a, finibus commodo mauris. \n- Fusce aliquam neque lacus. Quisque vel vestibulum magna. Duis venenatis at sem nec blandit. Phasellus in lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam nibh velit, commodo at mattis ut, vehicula et justo. \n- Nam tellus ligula, tristique a dolor vel, finibus lobortis purus. Integer et interdum tellus. Quisque eget cursus mauris.",
+        "companyName": "Nextperience",
+        "companyUrl": "https://nextperience.cl/",
+        "positionName": "Web/eMail Developer",
+        "positionStart": "2014-02-01",
+        "positionEnd": "2014-10-01",
+        "positionDescription": "- Developed email and landing page templates for marketing campaigns aimed at customer acquisition.",
         "createdAt": "2023-11-29T02:45:17.551Z",
         "updatedAt": "2023-11-29T02:45:17.551Z",
         "publishedAt": "2023-12-01T03:10:09.736Z"
