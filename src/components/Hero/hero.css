@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 92px;
+  min-height: 100vh;
+}
+
+.intro {
+  max-width: 435px;
+  margin-bottom: 24px;
+  opacity: 0;
+}
+
+.bio {
+  max-width: 800px;
+  margin-bottom: 24px;
+  opacity: 0;
+}
+
+.technologies-wrapper {
+  display: flex;
+  padding: 12px 0;
+  gap: 16px;
+  opacity: 0;
+}
+
+/* @media (min-width: 780px) {
+  .hero {
+    padding-top: 0;
+  }
+} */

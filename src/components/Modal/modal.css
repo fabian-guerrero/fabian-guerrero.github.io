@@ -1,0 +1,64 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.modal .modal-close {
+  display: inline-block;
+  position: absolute;
+  right: 26px;
+  top: 26px;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.modal .modal-close i {
+  background-color: var(--color-black-dark);
+  border-radius: 2px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+}
+
+.modal .modal-close i:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+}
+
+.modal .modal-close i:nth-child(2) {
+  -webkit-transform: translateY(-4px) rotate(135deg);
+}
+
+.modal .modal-container {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  padding: 26px;
+  width: 80%;
+  max-height: 80%;
+  overflow-y: scroll;
+  border-radius: 6px;
+}
+
+.modal .project-details {
+  display: flex;
+}
+
+/* .modal .image-wrapper {
+  width: 35%;
+  overflow: hidden;
+} */
+
+.modal .image-detail {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

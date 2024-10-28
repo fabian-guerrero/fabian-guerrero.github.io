@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "companyName": "Company 01",
+        "companyUrl": "Company URL",
+        "positionName": "Position Name",
+        "positionStart": "2023-11-01",
+        "positionEnd": "2023-11-01",
+        "positionDescription": "- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo tortor augue, in mollis velit auctor sed. Praesent ut convallis odio. Quisque odio odio, iaculis non dui a, finibus commodo mauris. \n- Fusce aliquam neque lacus. Quisque vel vestibulum magna. Duis venenatis at sem nec blandit. Phasellus in lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam nibh velit, commodo at mattis ut, vehicula et justo. \n- Nam tellus ligula, tristique a dolor vel, finibus lobortis purus. Integer et interdum tellus. Quisque eget cursus mauris.",
+        "createdAt": "2023-11-29T02:44:38.146Z",
+        "updatedAt": "2023-12-03T04:17:35.206Z",
+        "publishedAt": "2023-12-01T03:09:46.796Z"
+      },
+      "image": {
+        "url": "/images/mediamonks_logo.jpg",
+        "alt": "Company 01"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "companyName": "Company 02",
+        "companyUrl": "Company URL",
+        "positionName": "Position Name",
+        "positionStart": "2023-11-01",
+        "positionEnd": "2023-11-01",
+        "positionDescription": "- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo tortor augue, in mollis velit auctor sed. Praesent ut convallis odio. Quisque odio odio, iaculis non dui a, finibus commodo mauris. \n- Fusce aliquam neque lacus. Quisque vel vestibulum magna. Duis venenatis at sem nec blandit. Phasellus in lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam nibh velit, commodo at mattis ut, vehicula et justo. \n- Nam tellus ligula, tristique a dolor vel, finibus lobortis purus. Integer et interdum tellus. Quisque eget cursus mauris.",
+        "createdAt": "2023-11-29T02:45:08.220Z",
+        "updatedAt": "2023-12-01T03:09:58.954Z",
+        "publishedAt": "2023-12-01T03:09:58.948Z"
+      },
+      "image": {
+        "url": "/images/insite_logo.jpg",
+        "alt": "Company 02"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "companyName": "Company 03",
+        "companyUrl": "Company URL",
+        "positionName": "Position Name",
+        "positionStart": "2023-11-01",
+        "positionEnd": "2023-11-01",
+        "positionDescription": "- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo tortor augue, in mollis velit auctor sed. Praesent ut convallis odio. Quisque odio odio, iaculis non dui a, finibus commodo mauris. \n- Fusce aliquam neque lacus. Quisque vel vestibulum magna. Duis venenatis at sem nec blandit. Phasellus in lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam nibh velit, commodo at mattis ut, vehicula et justo. \n- Nam tellus ligula, tristique a dolor vel, finibus lobortis purus. Integer et interdum tellus. Quisque eget cursus mauris.",
+        "createdAt": "2023-11-29T02:45:17.551Z",
+        "updatedAt": "2023-11-29T02:45:17.551Z",
+        "publishedAt": "2023-12-01T03:10:09.736Z"
+      },
+      "image": {
+        "url": "/images/nextperience_logo.jpg",
+        "alt": "Company 03"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 3
+    }
+  }
+}
