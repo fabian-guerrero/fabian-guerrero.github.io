@@ -133,7 +133,19 @@ button {
   font-size: var(--h1);
 }
 
+@mixin heading-1 {
+  font-family: var(--font-source-code);
+  font-weight: 700;
+  font-size: var(--h1);
+}
+
 .heading-2 {
+  font-family: var(--font-source-code);
+  font-weight: 700;
+  font-size: var(--h2);
+}
+
+@mixin heading-2 {
   font-family: var(--font-source-code);
   font-weight: 700;
   font-size: var(--h2);
@@ -145,7 +157,19 @@ button {
   font-size: var(--h3);
 }
 
+@mixin heading-3 {
+  font-family: var(--font-source-code);
+  font-weight: 700;
+  font-size: var(--h3);
+}
+
 .heading-4 {
+  font-family: var(--font-source-code);
+  font-weight: 700;
+  font-size: var(--h4);
+}
+
+@mixin heading-4 {
   font-family: var(--font-source-code);
   font-weight: 700;
   font-size: var(--h4);
@@ -157,10 +181,24 @@ button {
   font-size: var(--h5);
 }
 
+@mixin heading-5 {
+  font-family: var(--font-source-code);
+  font-weight: 700;
+  font-size: var(--h5);
+  line-height: auto;
+}
+
 .lead-paragraph {
   font-family: var(--font-open-sans);
   font-weight: 700;
   font-size: var(--lead-paragraph);
+}
+
+@mixin lead-paragraph {
+  font-family: var(--font-open-sans);
+  font-weight: 700;
+  font-size: var(--h5);
+  line-height: 31px;
 }
 
 .body-text {
@@ -176,7 +214,8 @@ button {
 }
 
 .container {
-  padding: 0 32px;
+  /* padding: 0 32px; */
+  padding: 0 16px;
   margin: 0 auto;
   width: 100%;
   position: relative;
@@ -184,6 +223,20 @@ button {
 
 .section-title {
   margin-bottom: 42px;
+}
+
+.section-title {
+  @include heading-4;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .section-title {
+    @include heading-2;
+  }
 }
 
 @media (min-width: 1024px) {

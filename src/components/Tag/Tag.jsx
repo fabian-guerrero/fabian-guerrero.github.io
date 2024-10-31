@@ -1,4 +1,4 @@
-import "./tag.css";
+import "./tag.scss";
 
 const Tag = ({ copy }) => {
   return <p className="tag small-text">{copy}</p>;

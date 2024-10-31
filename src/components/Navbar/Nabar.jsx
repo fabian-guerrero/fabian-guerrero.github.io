@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 import LogoFgd from "../../images/svg/logo-fgd.svg?react";
 // import ScrollToAnchor from "../ScrollToAnchor";
-import "./navbar.css";
+import "./navbar.scss";
 
 const Navbar = () => {
   const [menuState, setMenuState] = useState(false);

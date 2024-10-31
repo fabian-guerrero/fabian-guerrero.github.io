@@ -39,6 +39,11 @@
   font-size: 18px;
 }
 
+.company-position {
+  color: var(--color-secondary-light);
+  opacity: 0.4;
+}
+
 .company-image {
   width: 60px;
   border-radius: 4px;
@@ -46,8 +51,7 @@
 }
 
 .company-detail {
-  display: flex;
-  flex-direction: column;
+  display: none;
 }
 
 .experience-details {
@@ -77,6 +81,7 @@
   font-family: var(--font-source-sans);
   font-weight: 400;
   font-size: 16px;
+  color: #6b7280;
 }
 
 .experience-description ul {
@@ -101,6 +106,19 @@
 
 .experience-description li::marker {
   color: transparent;
+}
+
+.company-link {
+  color: var(--color-pry);
+  text-decoration: none;
+}
+
+@media (min-width: 780px) {
+  .company-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1024px) {

@@ -1,4 +1,4 @@
-import "./workDetails.css";
+import "./workDetails.scss";
 
 const WorkDetails = ({ heading, imageUrl, imageAlt, description }) => {
   return (

@@ -3,7 +3,7 @@ import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import WorkCard from "../WorkCard/WorkCard";
-import "./work.css";
+import "./work.scss";
 gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {

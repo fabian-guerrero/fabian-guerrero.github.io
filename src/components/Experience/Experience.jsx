@@ -3,7 +3,7 @@ import { useRef, useLayoutEffect, useState, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Markdown from "react-markdown";
-import "./experience.css";
+import "./experience.scss";
 gsap.registerPlugin(ScrollTrigger);
 
 const Experience = () => {
@@ -82,7 +82,7 @@ const Experience = () => {
   return (
     <section id="experience" className="container experience">
       <div ref={experienceRef}>
-        <p className="section-title heading-2"> Experience</p>
+        <p className="section-title"> Experience</p>
         <div className="experience-card-container">
           <div className="experience-companies">
             {data?.data.map((experience) => (
@@ -127,7 +127,14 @@ const Experience = () => {
               >
                 <p className="body-text">
                   {experience.attributes.positionName} at{" "}
-                  {experience.attributes.companyName}
+                  <a
+                    href={experience.attributes.companyUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="company-link"
+                  >
+                    {experience.attributes.companyName}
+                  </a>
                 </p>
                 <p className="position-period">
                   {experience.attributes.positionStart} -{" "}

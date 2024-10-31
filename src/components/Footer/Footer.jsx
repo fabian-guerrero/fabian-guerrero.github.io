@@ -7,7 +7,7 @@ import LogoGitHub from "../../images/svg/logo-github.svg?react";
 import LogoX from "../../images/svg/logo-x.svg?react";
 import Email from "../../images/svg/mail.svg?react";
 
-import "./footer.css";
+import "./footer.scss";
 
 gsap.registerPlugin(ScrollTrigger);
 

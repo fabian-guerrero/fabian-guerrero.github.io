@@ -1,3 +1,5 @@
+@use "../../style.scss" as *;
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -7,15 +9,21 @@
 }
 
 .intro {
-  max-width: 560px;
+  max-width: 340px;
   margin-bottom: 24px;
   opacity: 0;
+  text-align: center;
+  @include heading-3;
 }
 
 .bio {
   max-width: 800px;
   margin-bottom: 24px;
   opacity: 0;
+  color: #898989;
+  text-align: justify;
+
+  @include lead-paragraph;
 }
 
 .technologies-wrapper {
@@ -25,8 +33,9 @@
   opacity: 0;
 }
 
-/* @media (min-width: 780px) {
-  .hero {
-    padding-top: 0;
+@media (min-width: 780px) {
+  .intro {
+    max-width: 560px;
+    @include heading-1;
   }
-} */
+}

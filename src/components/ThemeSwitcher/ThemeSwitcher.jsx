@@ -1,4 +1,4 @@
-import "./theme-switcher.css";
+import "./theme-switcher.scss";
 
 const storageKey = "theme-preference";
 

@@ -2,6 +2,7 @@ import Tag from "../Tag/Tag";
 import { ModalContext } from "../../modalContext";
 import { useContext } from "react";
 import WorkDetails from "../WorkDetails/WorkDetails";
+import "./work-card.scss";
 
 const WorkCard = ({
   heading,
@@ -29,7 +30,7 @@ const WorkCard = ({
         }
       >
         <div className="title-wrapper">
-          <p className="title heading-3">{heading}</p>
+          <p className="title">{heading}</p>
           {/* <p className="year small-text">{work.attributes.year}</p> */}
         </div>
         <div>

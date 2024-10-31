@@ -1,0 +1,13 @@
+@use "../../style.scss" as *;
+
+.work-card {
+  .title {
+    @include heading-5;
+  }
+
+  @media (min-width: 780px) {
+    .title {
+      @include heading-3;
+    }
+  }
+}
