@@ -217,15 +217,6 @@
               }
             },
             {
-              "id": 6,
-              "attributes": {
-                "name": "Handlebars",
-                "createdAt": "2023-11-29T02:20:12.978Z",
-                "updatedAt": "2023-11-29T02:20:12.978Z",
-                "publishedAt": "2023-12-01T03:12:32.226Z"
-              }
-            },
-            {
               "id": 4,
               "attributes": {
                 "name": "Typescript",
