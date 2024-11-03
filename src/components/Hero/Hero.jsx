@@ -33,7 +33,7 @@ const Hero = () => {
   }, [data]);
 
   return (
-    <section ref={section} className="container hero">
+    <section ref={section} className="container hero" id="hero">
       <p className="intro">{data?.data[0].attributes.intro}</p>
       <p className="bio">{data?.data[0].attributes.smallBio}</p>
       <div className="technologies-wrapper">
