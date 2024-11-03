@@ -109,6 +109,10 @@ html[data-theme="dark"] .navbar {
   background-color: var(--color-secondary);
 }
 
+html[data-theme="dark"] .modal-content ul li {
+  color: #000000;
+}
+
 body {
   margin: 0;
 }
