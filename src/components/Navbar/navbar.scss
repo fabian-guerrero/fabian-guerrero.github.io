@@ -81,6 +81,27 @@
   color: var(--color-secondary);
   text-decoration: none;
   font-size: 20px;
+  position: relative;
+}
+
+.link-item a.section-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  opacity: 0;
+  transition:
+    opacity 300ms,
+    transform 300ms;
+}
+
+.link-item a.section-link:hover::after,
+.link-item a.section-link:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
 }
 
 .toogle-theme-wrapper {
@@ -341,6 +362,11 @@
 
   .desktop-theme-switcher {
     display: inline-block;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
 

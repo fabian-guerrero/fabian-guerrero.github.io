@@ -71,6 +71,7 @@
 
 .experience-description.active {
   opacity: 1;
+  z-index: 1;
 }
 
 .experience-description .body-text {
@@ -111,6 +112,28 @@
 .company-link {
   color: var(--color-primary);
   text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.company-link::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-primary);
+  opacity: 0;
+  transition:
+    opacity 300ms,
+    transform 300ms;
+}
+
+.company-link:hover::after,
+.company-link:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
 }
 
 @media (min-width: 780px) {

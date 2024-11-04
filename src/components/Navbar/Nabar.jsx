@@ -70,12 +70,12 @@ const Navbar = () => {
 
           <ul className={`links-list${toogleMenuState}`}>
             <li className="link-item">
-              <a className="small-text" href="#experience">
+              <a className="section-link small-text" href="#experience">
                 Experience
               </a>
             </li>
             <li className="link-item">
-              <a className="small-text" href="#work">
+              <a className="section-link small-text" href="#work">
                 Works
               </a>
             </li>

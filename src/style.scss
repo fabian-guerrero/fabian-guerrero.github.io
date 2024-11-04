@@ -60,6 +60,9 @@ html[data-theme="dark"] .link-item a,
 html[data-theme="dark"] li {
   color: var(--color-white-light);
 }
+html[data-theme="dark"] .link-item a.section-link::after {
+  background-color: var(--color-white-light);
+}
 
 html[data-theme="dark"] .modal-content p {
   color: var(--color-secondary);
