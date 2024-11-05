@@ -28,6 +28,8 @@
 
 .technologies-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 12px 0;
   gap: 16px;
   opacity: 0;
