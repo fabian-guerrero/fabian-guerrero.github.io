@@ -10,14 +10,34 @@ const WorkCard = ({
   imageAlt,
   technologies,
   description,
+  relatedLinks,
 }) => {
   let { handleModal } = useContext(ModalContext);
+
+  const enterKey = 13;
+  const spaceKey = 32;
+
+  function handleKeyDown(e) {
+    if (e.keyCode === enterKey || e.keyCode === spaceKey) {
+      e.preventDefault();
+      handleModal(
+        <WorkDetails
+          heading={heading}
+          imageUrl={imageUrl}
+          imageAlt={imageAlt}
+          description={description}
+          relatedLinks={relatedLinks}
+        />,
+      );
+    }
+  }
 
   return (
     <>
       <div
         className="work-card"
-        aria-hidden="true"
+        tabIndex="0"
+        role="button"
         onClick={() =>
           handleModal(
             <WorkDetails
@@ -25,9 +45,11 @@ const WorkCard = ({
               imageUrl={imageUrl}
               imageAlt={imageAlt}
               description={description}
+              relatedLinks={relatedLinks}
             />,
           )
         }
+        onKeyDown={handleKeyDown}
       >
         <div className="title-wrapper">
           <p className="title">{heading}</p>

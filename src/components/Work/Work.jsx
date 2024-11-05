@@ -51,6 +51,7 @@ const Work = () => {
                 imageAlt={work.image.alt}
                 technologies={work.attributes.technologies}
                 description={work.attributes.description}
+                relatedLinks={work.attributes.relatedLinks}
               />
             ))}
           </div>

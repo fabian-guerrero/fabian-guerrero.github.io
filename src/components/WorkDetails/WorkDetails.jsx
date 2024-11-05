@@ -1,6 +1,12 @@
 import "./workDetails.scss";
 
-const WorkDetails = ({ heading, imageUrl, imageAlt, description }) => {
+const WorkDetails = ({
+  heading,
+  imageUrl,
+  imageAlt,
+  description,
+  relatedLinks,
+}) => {
   return (
     <div className="modal-content">
       <p className="modal-heading heading-5">{heading}</p>
@@ -13,10 +19,10 @@ const WorkDetails = ({ heading, imageUrl, imageAlt, description }) => {
             loading="lazy"
           />
         </div>
-        <div
-          className="info-detail body-text"
-          dangerouslySetInnerHTML={{ __html: description }}
-        ></div>
+        <div className="info-detail body-text">
+          <span dangerouslySetInnerHTML={{ __html: description }}></span>
+          <span dangerouslySetInnerHTML={{ __html: relatedLinks }}></span>
+        </div>
       </div>
     </div>
   );
