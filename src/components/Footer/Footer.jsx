@@ -51,7 +51,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/fabian-eduardo-guerrero"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="Linkedin Link"
           >
             <LogoLinkedIn className="logo" />
@@ -59,7 +59,7 @@ const Footer = () => {
           <a
             href="https://github.com/fabian-guerrero"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="GitHub Link"
           >
             <LogoGitHub className="logo" />

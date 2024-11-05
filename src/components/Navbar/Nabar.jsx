@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className="navbar-size">
           <div className="main-nav-wrapper">
             <div className="logo-wrappper">
-              <a href="#hero">
+              <a href="#hero" aria-label="Go to hero section">
                 <LogoFgd className="main-logo" />
               </a>
             </div>

@@ -130,7 +130,7 @@ const Experience = () => {
                   <a
                     href={experience.attributes.companyUrl}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="company-link"
                   >
                     {experience.attributes.companyName}
