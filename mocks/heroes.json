@@ -11,6 +11,15 @@
         "technologies": {
           "data": [
             {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
               "id": 2,
               "attributes": {
                 "name": "CSS",
@@ -29,12 +38,48 @@
               }
             },
             {
-              "id": 1,
+              "id": 4,
               "attributes": {
-                "name": "HTML",
-                "createdAt": "2023-11-29T02:19:16.884Z",
-                "updatedAt": "2023-12-01T02:48:56.102Z",
-                "publishedAt": "2023-12-01T02:48:56.095Z"
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 6,
+              "attributes": {
+                "name": "Handlebars",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 8,
+              "attributes": {
+                "name": "React",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 7,
+              "attributes": {
+                "name": "Vue",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
               }
             }
           ]
