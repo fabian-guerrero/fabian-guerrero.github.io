@@ -10,7 +10,6 @@ Access my site at [fabian-guerrero.github.io](https://fabian-guerrero.github.io/
 
 - [About The App](#about-the-app)
 - [Technologies](#technologies)
-- [Setup](#setup)
 - [Status](#status)
 - [Credits](#credits)
 - [License](#license)
@@ -41,4 +40,4 @@ This Web Template is based in the design maded by [Josneth Moreno](https://www.f
 
 ## License
 
-MIT license @ [Fabian Eduardo Guerrero]()
+MIT license @ [Fabian Eduardo Guerrero](https://github.com/fabian-guerrero/fabian-guerrero.github.io?tab=MIT-1-ov-file)
