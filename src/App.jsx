@@ -9,17 +9,15 @@ import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 
-import { useEffect } from "react";
-
 import ReactGA from "react-ga4";
 const TRACKING_ID = "G-6FK9MNVQPF";
 
-const App = () => {
-  useEffect(() => {
-    ReactGA.initialize(TRACKING_ID);
-    ReactGA.send({ hitType: "pageview", page: "/index", title: "Home Page" });
-  }, []);
+if (import.meta.env.VITE_IS_PRODUCTION === "true") {
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.send({ hitType: "pageview", page: "/index", title: "Home Page" });
+}
 
+const App = () => {
   return (
     <StrictMode>
       <Navbar />
