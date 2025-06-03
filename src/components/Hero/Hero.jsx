@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef, useLayoutEffect } from "react";
 import { useFetch } from "../../useFetch";
 import gsap from "gsap";
 import Tag from "../Tag/Tag";
@@ -12,7 +12,7 @@ const Hero = () => {
   // );
   const { data } = useFetch("./mocks/heroes.json");
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = section.current;
     let animation = gsap.fromTo(
       el.childNodes,

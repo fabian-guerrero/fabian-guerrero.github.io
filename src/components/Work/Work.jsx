@@ -1,5 +1,5 @@
 import { useFetch } from "../../useFetch";
-import { useRef, useEffect } from "react";
+import { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import WorkCard from "../WorkCard/WorkCard";
@@ -15,7 +15,7 @@ const Work = () => {
 
   const section = useRef(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = section.current;
     let animation = gsap.fromTo(
       el,
