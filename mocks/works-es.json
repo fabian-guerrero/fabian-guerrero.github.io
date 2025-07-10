@@ -1,0 +1,381 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Amazon Sustainability",
+        "description": "<p>Como parte de la misión de Amazon de ser la empresa más centrada en el cliente del planeta, estamos comprometidos a construir un negocio sostenible para nuestros empleados, clientes y comunidades. Desde la reducción del consumo de agua en los centros de datos hasta el uso de combustible de aviación sostenible.</p><p>Además de alcanzar emisiones netas de carbono cero para 2040, estamos en camino de cubrir todo nuestro consumo eléctrico global con energía 100% renovable para 2025.</p><p>El sitio web de Sostenibilidad de Amazon describe las iniciativas de la compañía hacia un futuro sostenible. Los esfuerzos clave incluyen lograr emisiones netas de carbono cero para 2040, utilizar energía 100% renovable para 2025 y promover prácticas de economía circular. El sitio destaca el Compromiso por el Clima, la reducción de la huella de carbono en operaciones y transporte, el desarrollo de productos sostenibles, y el apoyo a proyectos globales de reforestación y biodiversidad. Para más detalles, visita Sostenibilidad en Amazon.</p>",
+        "relatedLinks": "<p>Enlaces relacionados: </p><ul><li><a href='https://sustainability.aboutamazon.com/' target='_blank' rel='noopener noreferrer'>Amazon Sustainability</a></li></ul>",
+        "year": "2023",
+        "link": "link test",
+        "createdAt": "2023-11-29T02:25:52.415Z",
+        "updatedAt": "2023-12-02T18:26:01.519Z",
+        "publishedAt": "2023-12-01T02:54:48.810Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 6,
+              "attributes": {
+                "name": "Handlebars",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/images/sustainability-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "The Climate Pledge",
+        "description": "<p>¿Cómo puede la acción climática urgente convertirse en asunto de todas las empresas? Esta fue la pregunta que inspiró el lanzamiento de una plataforma renovada para The Climate Pledge, un compromiso para alcanzar emisiones netas de carbono cero para 2040.</p><p>Impulsado por Amazon y Global Optimism, la iniciativa buscaba atraer signatarios de renombre, crecer rápidamente y promover su misión recién articulada: “acelerar la acción climática responsable en todas las industrias para que las diversas comunidades, los recursos naturales y los entornos compartidos de nuestro planeta puedan prosperar indefinidamente”.</p><p>The Climate Pledge es un compromiso iniciado por Amazon y Global Optimism que tiene como objetivo que las empresas alcancen emisiones netas de carbono cero para 2040. Se centra en tres acciones clave: informar periódicamente sobre las emisiones de gases de efecto invernadero, implementar estrategias de descarbonización alineadas con el Acuerdo de París y utilizar compensaciones de carbono creíbles. El Compromiso une a más de 500 empresas en 45 países para promover prácticas comerciales sostenibles mediante la colaboración y la innovación. Los signatarios se comprometen a transformar sus industrias para un futuro más sostenible. Para más detalles, puedes visitar The Climate Pledge.</p>",
+        "relatedLinks": "<p>Enlaces relacionados: </p><ul><li><a href='https://www.theclimatepledge.com/' target='_blank' rel='noopener noreferrer'>The Climate Pledge</a></li><li><a href='https://www.awwwards.com/sites/the-climate-pledge-2' target='_blank' rel='noopener noreferrer'>Awwwards Honorable mention</a></li><li><a href='https://www.monks.com/case-studies/climate-pledge' target='_blank' rel='noopener noreferrer'>Case study</a></li></ul>",
+        "year": "2023-11-07",
+        "link": "link test",
+        "createdAt": "2023-11-29T02:39:35.766Z",
+        "updatedAt": "2023-11-29T02:39:35.766Z",
+        "publishedAt": "2023-12-03T22:56:42.914Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 6,
+              "attributes": {
+                "name": "Handlebars",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/images/climate-pledge-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "The Climate Pledge - Passport",
+        "description": "<p>Passport es una comunidad privada en línea para signatarios del Compromiso que proporciona herramientas prácticas y conexiones con expertos del sector para ayudar a las empresas a alcanzar sus objetivos de emisiones netas cero de carbono.</p><p>Un espacio donde las empresas pueden enfrentar juntos complejidades sectoriales, compartir mejores prácticas en sostenibilidad y transformar posibilidades prometedoras en nuevas realidades. Una nueva comunidad en línea exclusiva para signatarios y socios de The Climate Pledge.</p><p>Passport es un destino virtual para la acción climática, que reúne a empresas de todos los tamaños, sectores y ubicaciones para facilitar conversaciones estimulantes y conexiones significativas.</p><p>Un centro virtual para la acción climática, exclusivo para signatarios de The Climate Pledge. Dentro de esta comunidad digital, los signatarios podrán conectarse con compañeros de todos los sectores, debatir temas especializados, abordar desafíos comunes, unirse para proyectos y coordinarse para eventos sectoriales. Imagínelo como LinkedIn, pero solo para empresas comprometidas con descarbonizar sus operaciones para 2040.</p>",
+        "relatedLinks": "<p>Enlaces relacionados:</p><ul><li><a href='https://www.theclimatepledge.com/us/en/Stories/introducing-passport--our-new-online-community-for-signatories-o' target='_blank' rel='noopener noreferrer'>Initiative description</a></li></ul>",
+        "year": "2023-06-13",
+        "link": "link test",
+        "createdAt": "2023-11-29T02:40:02.184Z",
+        "updatedAt": "2023-11-29T02:40:02.184Z",
+        "publishedAt": "2023-12-01T03:21:06.305Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Javascript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Axero platform",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/images/passport-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "Visit Saudi",
+        "description": "<p>Lanzamos VisitSaudi.com en septiembre de 2019 como un sitio web adaptable en móviles y escritorio, con nuevas funcionalidades implementadas mensualmente. Desde entonces, alrededor de 11 millones de personas de más de 172 países han visitado la plataforma. Se emitieron más de 50,000 visados electrónicos para turistas entre septiembre de 2019 y marzo de 2020, cuando se suspendieron los viajes internacionales debido a la pandemia.</p><p>El sitio web oficial de Visit Saudi presenta a Arabia Saudita como un destino rico en historia, cultura y aventura. Destaca atracciones principales como la antigua ciudad nabatea de AlUla, ciudades modernas como Riad, la belleza costera del Mar Rojo y diversos festivales culturales. El sitio también ofrece guías de viaje, itinerarios y consejos para explorar los diversos paisajes del Reino, desde desiertos hasta oasis frondosos, al tiempo que promociona la hospitalidad y la gastronomía saudí. Para más detalles, visita Visit Saudi.</p>",
+        "relatedLinks": "<p>Enlaces relacionados:</p><ul><li><a href='https://www.visitsaudi.com' target='_blank' rel='noopener noreferrer'>Visit Saudi</a></li><li><a href='https://www.lovethework.com/work-awards/campaigns/visit-saudi-website-1498548' target='_blank' rel='noopener noreferrer'>Campaign</a></li></ul>",
+        "year": "2023-01-10",
+        "link": "link test",
+        "createdAt": "2023-11-29T02:40:22.573Z",
+        "updatedAt": "2023-11-29T02:40:22.573Z",
+        "publishedAt": "2023-12-03T22:56:42.914Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 8,
+              "attributes": {
+                "name": "React",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/images/saudi-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "name": "Starbucks Rewards",
+        "description": "<p>Starbucks Rewards es un programa de fidelidad donde los clientes acumulan puntos. Las tarjetas están disponibles en versiones física y virtual en la aplicación móvil de Starbucks. Para unirse al programa, los clientes deben crear una cuenta en línea en el sitio web de Starbucks, registrar al menos una tarjeta Starbucks en su cuenta y activarla.</p><p>El programa de lealtad permite a sus miembros sumar puntos con cada compra realizada en tiendas Starbucks o en línea en la tienda Starbucks.</p><p>El sitio web de Starbucks Rewards para Argentina ofrece a los miembros un programa de fidelidad donde los clientes ganan 'Estrellas' con cada compra. Estas Estrellas pueden canjearse por bebidas gratis, alimentos y otros beneficios exclusivos. El programa también incluye ofertas personalizadas, recompensas de cumpleaños y distintos niveles de membresía según las Estrellas acumuladas. Incentiva la interacción con la marca Starbucks mediante recompensas por compras tanto en tienda como en línea. Para más detalles, visita Starbucks Rewards Argentina.</p>",
+        "relatedLinks": "<p>Enlaces relacionados:</p><ul><li><a href='https://www.starbucksrewards.com.ar/' target='_blank' rel='noopener noreferrer'>Starbucks Rewards Argentina</a></li><li><a href='https://infonegocios.info/default/starbucks-argentina-lanzo-su-programa-de-recompensas-si-te-registras-hasta-el-15-de-mayo-tenes-un-premio' target='_blank' rel='noopener noreferrer'>In the news</a></li></ul>",
+        "year": "2023-01-10",
+        "link": "link test",
+        "createdAt": "2023-11-29T02:40:22.573Z",
+        "updatedAt": "2023-11-29T02:40:22.573Z",
+        "publishedAt": "2023-12-03T22:56:42.914Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 7,
+              "attributes": {
+                "name": "Vue",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/images/starbucks-rewards-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "name": "Osciloscope Laboratories",
+        "description": "<p>Un recorrido profundo por el legado de los Beastie Boys con una visita al recinto de cine y música de MCA.</p><p>'The House That Yauch Built' es un nuevo homenaje interactivo a Adam Yauch de los Beastie Boys. El recorrido por el estudio Oscilloscope original de Canal Street —hogar del estudio de grabación y la productora cinematográfica de MCA— incluye documentales con entrevistas inéditas y material de archivo nunca antes visto. Esta experiencia inmersiva es presentada por Oscilloscope Laboratories, Red Bull Music Academy y MediaMonks.</p><p>The House That Yauch Built es una plataforma conmemorativa en 360º que celebra el legendario estudio creativo de los Beastie Boys. Esta cápsula del tiempo digital preserva objetos de Oscilloscope —música, cine y arte—, amplificando las experiencias en el estudio, eventos e historias de celebridades que los convirtieron en íconos culturales.</p>",
+        "relatedLinks": "<p>Enlaces relacionados:</p><ul><li><a href='https://yauch.oscilloscope.net/' target='_blank' rel='noopener noreferrer'>Oscilloscope</a></li><li><a href='https://www.awwwards.com/sites/the-house-that-yauch-built' target='_blank' rel='noopener noreferrer'>Awwwards site of the day</a></li><li><a href='https://thefwa.com/cases/the-house-that-yauch-built' target='_blank' rel='noopener noreferrer'>FWA site of the day</a></li><li><a href='https://www.rollingstone.com/music/music-news/beastie-boys-inside-adam-yauchs-oscilloscope-laboratories-studio-706403/' target='_blank' rel='noopener noreferrer'>In the news</a></li></ul>",
+        "year": "2023-01-10",
+        "link": "link test",
+        "createdAt": "2023-11-29T02:40:22.573Z",
+        "updatedAt": "2023-11-29T02:40:22.573Z",
+        "publishedAt": "2023-12-03T22:56:42.914Z",
+        "technologies": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "name": "HTML",
+                "createdAt": "2023-11-29T02:19:16.884Z",
+                "updatedAt": "2023-12-01T02:48:56.102Z",
+                "publishedAt": "2023-12-01T02:48:56.095Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "name": "SCSS",
+                "createdAt": "2023-11-29T02:19:52.054Z",
+                "updatedAt": "2023-11-29T02:19:52.054Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Typescript",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "name": "GSAP",
+                "createdAt": "2023-11-29T02:20:12.978Z",
+                "updatedAt": "2023-11-29T02:20:12.978Z",
+                "publishedAt": "2023-12-01T03:12:32.226Z"
+              }
+            }
+          ]
+        }
+      },
+      "image": {
+        "url": "/images/oscilloscope-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 4
+    }
+  }
+}
