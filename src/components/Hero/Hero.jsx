@@ -33,13 +33,15 @@ const Hero = () => {
   }, [data]);
 
   return (
-    <section ref={section} className="container hero" id="hero">
-      <p className="intro">{data?.data[0].attributes.intro}</p>
-      <p className="bio">{data?.data[0].attributes.smallBio}</p>
-      <div className="technologies-wrapper">
-        {data?.data[0].attributes.technologies.data.map((technology) => (
-          <Tag key={technology.id} copy={technology.attributes.name} />
-        ))}
+    <section className="container hero" id="hero">
+      <div className="hero-content" ref={section}>
+        <p className="intro">{data?.data[0].attributes.intro}</p>
+        <p className="bio">{data?.data[0].attributes.smallBio}</p>
+        <div className="technologies-wrapper">
+          {data?.data[0].attributes.technologies.data.map((technology) => (
+            <Tag key={technology.id} copy={technology.attributes.name} />
+          ))}
+        </div>
       </div>
     </section>
   );
