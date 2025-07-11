@@ -21,11 +21,13 @@ const App = () => {
   return (
     <StrictMode>
       <Navbar />
-      <Hero />
-      <Experience />
-      <ModalProvider>
-        <Work />
-      </ModalProvider>
+      <main>
+        <Hero />
+        <Experience />
+        <ModalProvider>
+          <Work />
+        </ModalProvider>
+      </main>
       <Footer />
     </StrictMode>
   );

@@ -52,7 +52,7 @@ const WorkCard = ({
         onKeyDown={handleKeyDown}
       >
         <div className="title-wrapper">
-          <p className="title">{heading}</p>
+          <h3 className="title">{heading}</h3>
           {/* <p className="year small-text">{work.attributes.year}</p> */}
         </div>
         <div>

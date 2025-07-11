@@ -41,7 +41,7 @@ const Work = () => {
     <>
       <section className="container work" id="work">
         <div ref={section}>
-          <p className="section-title heading-2">Works</p>
+          <h2 className="section-title heading-2">Works</h2>
           <div className="work-card-container">
             {data?.data.map((work) => (
               <WorkCard

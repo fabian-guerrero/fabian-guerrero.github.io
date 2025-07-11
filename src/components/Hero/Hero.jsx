@@ -35,7 +35,7 @@ const Hero = () => {
   return (
     <section className="container hero" id="hero">
       <div className="hero-content" ref={section}>
-        <p className="intro">{data?.data[0].attributes.intro}</p>
+        <h1 className="intro">{data?.data[0].attributes.intro}</h1>
         <p className="bio">{data?.data[0].attributes.smallBio}</p>
         <div className="technologies-wrapper">
           {data?.data[0].attributes.technologies.data.map((technology) => (
