@@ -1,0 +1,49 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "attributes": {
+        "companyName": ".monks",
+        "companyUrl": "https://www.monks.com/",
+        "positionName": "Front-End Developer",
+        "positionStart": "September 2015",
+        "positionEnd": "October 2024",
+        "positionDescription": "- Developed and planned websites and web applications, ensuring a seamless user experience across multiple devices.\n- Optimized performance, quality, and maintenance of existing projects, with the goal of improving website loading speed by 30%.\n- Collaborated with cross-functional teams to implement modern design standards, contributing to a 20% reduction in bounce rates on key client projects.\n- Front-end development for client projects, focusing on building scalable, maintainable codebases that adhere to the latest accessibility and web standards.\n- Created email templates for marketing campaigns, aiming to increase email open rates by 15% through more engaging and responsive designs."
+      },
+      "image": {
+        "url": "/images/mediamonks_logo.jpg",
+        "alt": "Company 01"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "companyName": "Insite Latin America",
+        "companyUrl": "https://www.insite-la.com/",
+        "positionName": "Front-End Developer",
+        "positionStart": "November 2014",
+        "positionEnd": "August 2015",
+        "positionDescription": "- Implemented page layouts and web designs for new sites. \n- Updated content and design of existing websites. \n- Developed email templates and generated reports for email marketing campaigns. \n- Collaborate with the marketing team to execute email campaigns, including promotional, transactional, and automated emails, from concept to deployment."
+      },
+      "image": {
+        "url": "/images/insite_logo.jpg",
+        "alt": "Company 02"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "companyName": "Nextperience",
+        "companyUrl": "https://nextperience.cl/",
+        "positionName": "Web/eMail Developer",
+        "positionStart": "February 2014",
+        "positionEnd": "October 2014",
+        "positionDescription": "- Developed email and landing page templates for marketing campaigns aimed at customer acquisition. \n- Build, test and deploy email campaigns including editing copy, layout, links, and complex dynamic and personalized content. \n- Coordinate with design team to develop and hand code mobile responsive email campaigns from design to html. \n- Stay current on and recommend email marketing best practices with coding, design, and testing of email campaign"
+      },
+      "image": {
+        "url": "/images/nextperience_logo.jpg",
+        "alt": "Company 03"
+      }
+    }
+  ]
+}
