@@ -10,6 +10,9 @@ import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [menuState, setMenuState] = useState(false);
+  const { i18n } = useTranslation();
+  const { t } = useTranslation("common");
+  const currentLang = i18n.language;
 
   const handleClick = () => {
     setMenuState((menuState) => !menuState);
@@ -47,11 +50,11 @@ const Navbar = () => {
     });
   }, []);
 
-  let toogleMenuState = menuState ? " open" : "";
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
 
-  const { i18n } = useTranslation();
-  const { t } = useTranslation("common");
-  const currentLang = i18n.language;
+  let toogleMenuState = menuState ? " open" : "";
 
   const handleChange = (event) => {
     i18n.changeLanguage(event.target.value);
