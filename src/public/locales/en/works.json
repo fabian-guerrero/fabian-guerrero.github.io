@@ -1,0 +1,262 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "name": "Amazon Sustainability",
+      "description": "<p>As part of Amazon’s mission to be Earth’s most customer-centric company, we are committed to building a sustainable business for our employees, customers and communities From reducing water usage in data centers to using sustainable aviation fuel.</p><p>In addition to reaching net-zero carbon emissions by 2040, we are on a path to match all of our global electricity use with 100% renewable energy by 2025.</p><p>Amazon’s Sustainability website outlines the company’s initiatives toward a sustainable future. Key efforts include achieving net-zero carbon emissions by 2040, using 100% renewable energy by 2025, and promoting circular economy practices. The site highlights the Climate Pledge, reducing carbon footprints in operations and transportation, sustainable product development, and supporting global reforestation and biodiversity projects.For more details, visit Amazon Sustainability.</p>",
+      "relatedLinks": "<p>Related Links: </p><ul><li><a href='https://sustainability.aboutamazon.com/' target='_blank' rel='noopener noreferrer'>Amazon Sustainability</a></li></ul>",
+      "year": "2023",
+      "link": "link test",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "SCSS"
+            }
+          },
+          {
+            "id": 6,
+            "attributes": {
+              "name": "Handlebars"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Typescript"
+            }
+          },
+          {
+            "id": 5,
+            "attributes": {
+              "name": "GSAP"
+            }
+          }
+        ]
+      },
+      "image": {
+        "url": "/images/sustainability-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 2,
+      "name": "The Climate Pledge",
+      "description": "<p> How can urgent climate action become every company’s business? This was the question that inspired the launch of a reimagined platform for The Climate Pledge, a commitment to reach net-zero carbon emissions by 2040.</p><p>Powered by Amazon and Global Optimism, the initiative wanted to attract big-name signatories, grow quickly, and promote its newly articulated mission to “accelerate responsible climate action in every industry so our planet’s diverse communities, natural resources, and shared environments can thrive indefinitely.”</p><p>The Climate Pledge is a commitment initiated by Amazon and Global Optimism, aiming for companies to reach net-zero carbon emissions by 2040. It focuses on three key actions: regular reporting of greenhouse gas emissions, implementing decarbonization strategies aligned with the Paris Agreement, and utilizing credible carbon offsets. The Pledge unites over 500 companies across 45 countries to promote sustainable business practices through collaboration and innovation. Signatories pledge to transform their industries for a more sustainable future.For more details, you can visit The Climate Pledge.</p>",
+      "relatedLinks": "<p>Related Links: </p><ul><li><a href='https://www.theclimatepledge.com/' target='_blank' rel='noopener noreferrer'>The Climate Pledge</a></li><li><a href='https://www.awwwards.com/sites/the-climate-pledge-2' target='_blank' rel='noopener noreferrer'>Awwwards Honorable mention</a></li><li><a href='https://www.monks.com/case-studies/climate-pledge' target='_blank' rel='noopener noreferrer'>Case study</a></li></ul>",
+      "year": "2023-11-07",
+      "link": "link test",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "SCSS"
+            }
+          },
+          {
+            "id": 6,
+            "attributes": {
+              "name": "Handlebars"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Typescript"
+            }
+          },
+          {
+            "id": 5,
+            "attributes": {
+              "name": "GSAP"
+            }
+          }
+        ]
+      },
+      "image": {
+        "url": "/images/climate-pledge-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 3,
+      "name": "The Climate Pledge - Passport",
+      "description": "<p>Passport is a private online community for signatories of the Pledge that provides practical tools and industry expert connections to help companies achieve their net-zero carbon emissions goals.</p><p>A space where businesses can tag-team industry complexities, share sustainability-related best practices, and transform promising possibilities into new realities. A new online community exclusively for signatories and partners of The Climate Pledge. </p><p>Passport is a virtual destination for climate action, bringing together companies of all sizes, industries, and locations to facilitate thought-provoking conversations and meaningful connections.</p><p>A virtual hub for climate action, exclusively for signatories of The Climate Pledge. Within this digital community, signatories will be able to connect with fellow signatories in every industry, discuss niche topics, tackle shared challenges, team up for projects, and sync up for industry events. Think LinkedIn, but just for companies committed to decarbonizing their business by 2040.</p>",
+      "relatedLinks": "<p>Related links:</p><ul><li><a href='https://www.theclimatepledge.com/us/en/Stories/introducing-passport--our-new-online-community-for-signatories-o' target='_blank' rel='noopener noreferrer'>Initiative description</a></li></ul>",
+      "year": "2023-06-13",
+      "link": "link test",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "SCSS"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Javascript"
+            }
+          },
+          {
+            "id": 9,
+            "attributes": {
+              "name": "Axero platform"
+            }
+          }
+        ]
+      },
+      "image": {
+        "url": "/images/passport-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Visit Saudi",
+      "description": "<p>We launched VisitSaudi.com in September of 2019 as a responsive website on mobile and desktop, with new features being released on a monthly basis. Since then, around 11 million people from over 172 countries have visited the platform. Over 50,000 e-visas for tourists were issued from September 2019 to March 2020, when international travel was suspended due to the pandemic.</p><p>Visit Saudi's official website showcases Saudi Arabia as a destination rich in history, culture, and adventure. It highlights major attractions, including the ancient Nabatean city of AlUla, modern cities like Riyadh, coastal beauty along the Red Sea, and various cultural festivals. The site also provides travel guides, itineraries, and tips for exploring the Kingdom’s diverse landscapes, from deserts to lush oases, while promoting Saudi’s hospitality and cuisine.For more details, you can visit Visit Saudi.</p>",
+      "relatedLinks": "<p>Related links:</p><ul><li><a href='https://www.visitsaudi.com' target='_blank' rel='noopener noreferrer'>Visit Saudi</a></li><li><a href='https://www.lovethework.com/work-awards/campaigns/visit-saudi-website-1498548' target='_blank' rel='noopener noreferrer'>Campaign</a></li></ul>",
+      "year": "2023-01-10",
+      "link": "link test",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "SCSS"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Typescript"
+            }
+          },
+          {
+            "id": 5,
+            "attributes": {
+              "name": "GSAP"
+            }
+          },
+          {
+            "id": 8,
+            "attributes": {
+              "name": "React"
+            }
+          }
+        ]
+      },
+      "image": {
+        "url": "/images/saudi-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Starbucks Rewards",
+      "description": "<p>Starbucks Rewards is a loyalty program where customers can accumulate points. Cards are available in plastic and virtual versions in the Starbucks mobile app. To join the program, customers have to create an account online at the Starbucks website, register at least one Starbucks card to an account and activate it.</p><p>The loyalty program allows its members to gain points with every purchase made in Starbucks or online at the Starbucks store.</p><p>The Starbucks Rewards website for Argentina offers members a loyalty program where customers earn 'Stars' with each purchase. These Stars can be redeemed for free drinks, food, and other exclusive benefits. The program also provides personalized offers, birthday rewards, and various levels of membership based on accumulated Stars. It encourages users to engage with the Starbucks brand through rewards for both in-store and online purchases.For more details, visit Starbucks Rewards Argentina.</p>",
+      "relatedLinks": "<p>Related links</p><ul><li><a href='https://www.starbucksrewards.com.ar/' target='_blank' rel='noopener noreferrer'>Starbucks Rewards Argentina</a></li><li><a href='https://infonegocios.info/default/starbucks-argentina-lanzo-su-programa-de-recompensas-si-te-registras-hasta-el-15-de-mayo-tenes-un-premio' target='_blank' rel='noopener noreferrer'>In the news</a></li></ul>",
+      "year": "2023-01-10",
+      "link": "link test",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "SCSS"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Typescript"
+            }
+          },
+          {
+            "id": 7,
+            "attributes": {
+              "name": "Vue"
+            }
+          }
+        ]
+      },
+      "image": {
+        "url": "/images/starbucks-rewards-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Osciloscope Laboratories",
+      "description": "<p>An in-depth look at the Beastie Boys’ legacy with a walk through MCA’s film and music compound.</p><p> 'The House That Yauch Built' is a new interactive tribute to Beastie Boys’ Adam Yauch. The tour of the original Canal Street Oscilloscope Studio—home of MCA’s recording studio and film production company—features video documentaries featuring previously unreleased interviews and archival footage. The immersive experience is presented by Oscilloscope Laboratories, Red Bull Music Academy, and MediaMonks.</p><p>The House That Yauch Built is a commemorative 360º platform celebrating the Beastie Boys’ legendary creative studio. This digital time capsule enshrines Oscilloscope music, film, and art memorabilia, amplifying the studio experiences, events, and celebrity stories that made them cultural icons.</p>",
+      "relatedLinks": "<p>Related links</p><ul><li><a href='https://yauch.oscilloscope.net/' target='_blank' rel='noopener noreferrer'>Oscilloscope</a></li><li><a href='https://www.awwwards.com/sites/the-house-that-yauch-built' target='_blank' rel='noopener noreferrer'>Awwwards site of the day</a></li><li><a href='https://thefwa.com/cases/the-house-that-yauch-built' target='_blank' rel='noopener noreferrer'>FWA site of the day</a></li><li><a href='https://www.rollingstone.com/music/music-news/beastie-boys-inside-adam-yauchs-oscilloscope-laboratories-studio-706403/' target='_blank' rel='noopener noreferrer'>In the news</a></li></ul>",
+      "year": "2023-01-10",
+      "link": "link test",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "SCSS"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Typescript"
+            }
+          },
+          {
+            "id": 5,
+            "attributes": {
+              "name": "GSAP"
+            }
+          }
+        ]
+      },
+      "image": {
+        "url": "/images/oscilloscope-experience.jpg",
+        "alt": "amazon sustainability"
+      }
+    }
+  ]
+}

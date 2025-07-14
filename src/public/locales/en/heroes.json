@@ -1,0 +1,61 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "intro": "Hello I’m Fabián Guerrero",
+      "smallBio": "A highly experienced Front-End Developer with 10 years of expertise in creating responsive, user-friendly interfaces using modern web standards and accessibility best practices. Skilled in a range of technologies such as HTML, CSS/SCSS, JavaScript, TypeScript, React, GSAP, and Handlebars. Dedicated to improving website performance and user experience while maintaining the highest coding standards. Proven track record of delivering high-quality solutions for diverse clients in the Latin American and European markets.",
+      "technologies": {
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "HTML"
+            }
+          },
+          {
+            "id": 2,
+            "attributes": {
+              "name": "CSS"
+            }
+          },
+          {
+            "id": 3,
+            "attributes": {
+              "name": "JavaSacript"
+            }
+          },
+          {
+            "id": 4,
+            "attributes": {
+              "name": "Typescript"
+            }
+          },
+          {
+            "id": 5,
+            "attributes": {
+              "name": "GSAP"
+            }
+          },
+          {
+            "id": 6,
+            "attributes": {
+              "name": "Handlebars"
+            }
+          },
+          {
+            "id": 8,
+            "attributes": {
+              "name": "React"
+            }
+          },
+          {
+            "id": 7,
+            "attributes": {
+              "name": "Vue"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
