@@ -55,6 +55,9 @@ html[data-theme="dark"] body {
   background-color: var(--color-secondary);
 }
 
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
 html[data-theme="dark"] p,
 html[data-theme="dark"] .link-item a,
 html[data-theme="dark"] li {
@@ -86,6 +89,10 @@ html[data-theme="dark"] .work-card:hover {
 
 html[data-theme="dark"] .main-logo {
   color: var(--color-white-light);
+}
+
+html[data-theme="dark"] .language-selector-icon {
+  fill: var(--color-white-light);
 }
 
 html[data-theme="dark"] .footer .logo {
@@ -132,6 +139,17 @@ button {
   overflow: visible;
 
   background: transparent;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .heading-1 {
