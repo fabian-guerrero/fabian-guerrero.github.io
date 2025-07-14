@@ -63,6 +63,7 @@ html[data-theme="dark"] .link-item a,
 html[data-theme="dark"] li {
   color: var(--color-white-light);
 }
+
 html[data-theme="dark"] .link-item a.section-link::after {
   background-color: var(--color-white-light);
 }
@@ -121,6 +122,11 @@ html[data-theme="dark"] .navbar {
 
 html[data-theme="dark"] .modal-content ul li {
   color: #000000;
+}
+
+html[data-theme="dark"] .language-selector {
+  background-color: var(--color-secondary);
+  color: var(--color-white-light);
 }
 
 body {

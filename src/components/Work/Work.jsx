@@ -1,8 +1,10 @@
-import { useFetch } from "../../useFetch";
+//import { useFetch } from "../../useFetch";
 import { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import WorkCard from "../WorkCard/WorkCard";
+import { useTranslation } from "react-i18next";
+
 import "./work.scss";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,7 +13,10 @@ const Work = () => {
   //   "http://localhost:1337/api/latest-works?populate=technologies",
   // );
 
-  const { data } = useFetch("./mocks/works.json");
+  //const { data } = useFetch("./mocks/works.json");
+
+  const { t } = useTranslation("works");
+  const works = t("works", { returnObjects: true });
 
   const section = useRef(null);
 
@@ -26,8 +31,8 @@ const Work = () => {
         duration: 2,
         scrollTrigger: {
           trigger: el,
-          start: "top 50%",
-          // markers: { fontWeight: "bold" },
+          start: "top 75%",
+          //markers: { fontWeight: "bold" },
         },
       },
     );
@@ -35,23 +40,25 @@ const Work = () => {
     return () => {
       animation.kill();
     };
-  }, [data]);
+  }, []);
 
   return (
     <>
       <section className="container work" id="work">
         <div ref={section}>
-          <h2 className="section-title heading-2">Works</h2>
+          <h2 className="section-title heading-2">
+            {t("works", { ns: "common" })}
+          </h2>
           <div className="work-card-container">
-            {data?.data.map((work) => (
+            {works.map((work) => (
               <WorkCard
                 key={work.id}
-                heading={work.attributes.name}
+                heading={work.name}
                 imageUrl={work.image.url}
                 imageAlt={work.image.alt}
-                technologies={work.attributes.technologies}
-                description={work.attributes.description}
-                relatedLinks={work.attributes.relatedLinks}
+                technologies={work.technologies}
+                description={work.description}
+                relatedLinks={work.relatedLinks}
               />
             ))}
           </div>

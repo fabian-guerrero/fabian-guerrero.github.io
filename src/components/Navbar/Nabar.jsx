@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import Button from "../Button/Button";
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher";
 import LogoFgd from "../../images/svg/logo-fgd.svg?react";
+import WorldIcon from "../../images/svg/world.svg?react";
 import "./navbar.scss";
+import "../../i18n";
+
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [menuState, setMenuState] = useState(false);
@@ -45,6 +49,14 @@ const Navbar = () => {
 
   let toogleMenuState = menuState ? " open" : "";
 
+  const { i18n } = useTranslation();
+  const { t } = useTranslation("common");
+  const currentLang = i18n.language;
+
+  const handleChange = (event) => {
+    i18n.changeLanguage(event.target.value);
+  };
+
   return (
     <div className="navbar-container">
       <nav className="navbar" id="navbar">
@@ -71,13 +83,29 @@ const Navbar = () => {
           <ul className={`links-list${toogleMenuState}`}>
             <li className="link-item">
               <a className="section-link small-text" href="#experience">
-                Experience
+                {t("experience")}
               </a>
             </li>
             <li className="link-item">
               <a className="section-link small-text" href="#work">
-                Works
+                {t("works")}
               </a>
+            </li>
+            <li className="link-item">
+              <label htmlFor="language-select" className="sr-only">
+                Select language
+              </label>
+              <WorldIcon className="language-selector-icon" />
+              <select
+                id="language-select"
+                className="language-selector small-text"
+                value={currentLang}
+                onChange={handleChange}
+                aria-label="Select language"
+              >
+                <option value="en">English</option>
+                <option value="es">Español</option>
+              </select>
             </li>
             <li className="link-item">
               <ThemeSwitcher mediaQuery="desktop" maskId="moon-mask" />
@@ -88,7 +116,7 @@ const Navbar = () => {
                 href="../../images/FabianGuerreroResume.pdf"
                 download
               >
-                <Button variant="filled">Download CV</Button>
+                <Button variant="filled"> {t("downloadCv")}</Button>
               </a>
             </li>
           </ul>

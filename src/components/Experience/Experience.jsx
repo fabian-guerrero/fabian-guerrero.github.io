@@ -1,14 +1,19 @@
-import { useFetch } from "../../useFetch";
+//import { useFetch } from "../../useFetch";
 import { useRef, useLayoutEffect, useState, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Markdown from "react-markdown";
+import { useTranslation } from "react-i18next";
+
 import "./experience.scss";
 gsap.registerPlugin(ScrollTrigger);
 
 const Experience = () => {
   //const { data } = useFetch("http://localhost:1337/api/experiences");
-  const { data } = useFetch("./mocks/experiences.json");
+  //const { data } = useFetch("./mocks/experiences.json");
+
+  const { t } = useTranslation("experiences");
+  const experiences = t("experiences", { returnObjects: true });
 
   const [activeTab, setActiveTab] = useState("experience-tab-1");
 
@@ -26,8 +31,8 @@ const Experience = () => {
         delay: 1,
         scrollTrigger: {
           trigger: el,
-          start: "top 50%",
-          // markers: { top: 50, fontWeight: "bold" },
+          start: "top 75%",
+          //markers: { top: 50, fontWeight: "thin" },
         },
       },
     );
@@ -55,7 +60,7 @@ const Experience = () => {
         },
       );
     }
-  }, [data, activeTab]);
+  }, [activeTab]);
 
   const handleExperience = (experienceId) => {
     setActiveTab(`experience-tab-${experienceId}`);
@@ -83,10 +88,10 @@ const Experience = () => {
   return (
     <section id="experience" className="container experience">
       <div ref={experienceRef}>
-        <h2 className="section-title"> Experience</h2>
+        <h2 className="section-title">{t("experience", { ns: "common" })}</h2>
         <div className="experience-card-container">
           <div className="experience-companies">
-            {data?.data.map((experience) => (
+            {experiences.map((experience) => (
               <button
                 onClick={() => handleExperience(`${experience.id}`)}
                 key={experience.id}
@@ -116,7 +121,7 @@ const Experience = () => {
             ))}
           </div>
           <div className="experience-details">
-            {data?.data.map((experience) => (
+            {experiences.map((experience) => (
               <div
                 key={`detail-${experience.id}`}
                 data-id={experience.id}

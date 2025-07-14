@@ -1,7 +1,9 @@
 import { useRef, useLayoutEffect } from "react";
-import { useFetch } from "../../useFetch";
+//import { useFetch } from "../../useFetch";
 import gsap from "gsap";
 import Tag from "../Tag/Tag";
+import { useTranslation } from "react-i18next";
+
 import "./hero.scss";
 
 const Hero = () => {
@@ -10,7 +12,10 @@ const Hero = () => {
   // const { data } = useFetch(
   //   "http://localhost:1337/api/heroes?populate=technologies",
   // );
-  const { data } = useFetch("./mocks/heroes.json");
+  //const { data } = useFetch("./mocks/heroes.json");
+
+  const { t } = useTranslation("heroes");
+  const heroes = t("heroes", { returnObjects: true });
 
   useLayoutEffect(() => {
     const el = section.current;
@@ -30,15 +35,18 @@ const Hero = () => {
     return () => {
       animation.kill();
     };
-  }, [data]);
+  }, []);
 
   return (
     <section className="container hero" id="hero">
       <div className="hero-content" ref={section}>
-        <h1 className="intro">{data?.data[0].attributes.intro}</h1>
-        <p className="bio">{data?.data[0].attributes.smallBio}</p>
+        <h1
+          className="intro"
+          dangerouslySetInnerHTML={{ __html: heroes[0].intro }}
+        ></h1>
+        <p className="bio">{heroes[0].smallBio}</p>
         <div className="technologies-wrapper">
-          {data?.data[0].attributes.technologies.data.map((technology) => (
+          {heroes[0].technologies.data.map((technology) => (
             <Tag key={technology.id} copy={technology.attributes.name} />
           ))}
         </div>

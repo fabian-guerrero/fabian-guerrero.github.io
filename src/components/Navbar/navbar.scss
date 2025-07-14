@@ -114,6 +114,16 @@
   display: none;
 }
 
+.language-selector-icon {
+  fill: var(--color-secondary);
+  width: 20px;
+  height: 20px;
+}
+
+.language-selector {
+  border: none;
+}
+
 .mobile-menu-button {
   cursor: pointer;
   width: 30px;
