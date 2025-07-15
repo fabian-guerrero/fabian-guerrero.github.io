@@ -66,6 +66,7 @@
   grid-row-end: 2;
   opacity: 0;
   transition: opacity 0.2s ease-in;
+  visibility: hidden;
 }
 
 .experience-description.active {
