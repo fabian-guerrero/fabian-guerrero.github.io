@@ -50,10 +50,10 @@ const Experience = () => {
     if (selectedExperience) {
       gsap.fromTo(
         selectedExperience,
-        { y: 30, opacity: 0 },
+        { y: 30, autoAlpha: 0 },
         {
           y: 0,
-          opacity: 1,
+          autoAlpha: 1,
           duration: 0.8,
           delay: 0.4,
           pointerEvents: "auto",
@@ -71,10 +71,10 @@ const Experience = () => {
 
     const hideExperience = gsap.fromTo(
       currentExperience,
-      { y: 0, opacity: 1 },
+      { y: 0, autoAlpha: 1 },
       {
         y: -30,
-        opacity: 0,
+        autoAlpha: 0,
         duration: 0.8,
         pointerEvents: "none",
       },
@@ -128,7 +128,7 @@ const Experience = () => {
                 className={`experience-description ${
                   activeTab === `experience-tab-${experience.id}`
                     ? "active"
-                    : ""
+                    : "hidden"
                 }`}
               >
                 <p className="body-text">

@@ -75,10 +75,11 @@ const Navbar = () => {
               <button
                 onClick={handleClick}
                 className={`mobile-menu-button${toogleMenuState}`}
+                aria-label="Open the menu"
               >
-                <i></i>
-                <i></i>
-                <i></i>
+                <i aria-hidden="true"></i>
+                <i aria-hidden="true"></i>
+                <i aria-hidden="true"></i>
               </button>
             </div>
           </div>
