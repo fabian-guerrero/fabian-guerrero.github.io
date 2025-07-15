@@ -42,7 +42,7 @@
         ]
       },
       "image": {
-        "url": "/images/sustainability-experience.jpg",
+        "url": "/images/sustainability-experience.webp",
         "alt": "Logo de amazon sustainability con tipografía moderna."
       }
     },
@@ -88,7 +88,7 @@
         ]
       },
       "image": {
-        "url": "/images/climate-pledge-experience.jpg",
+        "url": "/images/climate-pledge-experience.webp",
         "alt": "Ilustración de hojas verdes que se transforman en rascacielos con el texto 'The Climate Pledge'"
       }
     },
@@ -128,7 +128,7 @@
         ]
       },
       "image": {
-        "url": "/images/passport-experience.jpg",
+        "url": "/images/passport-experience.webp",
         "alt": "Logo de The Climate Pledge Passport sobre fondo azul claro."
       }
     },
@@ -175,7 +175,7 @@
         ]
       },
       "image": {
-        "url": "/images/saudi-experience.jpg",
+        "url": "/images/saudi-experience.webp",
         "alt": "Logo de 'Saudi' en blanco sobre fondo púrpura con el texto 'Welcome to Arabia'"
       }
     },
@@ -215,7 +215,7 @@
         ]
       },
       "image": {
-        "url": "/images/starbucks-rewards-experience.jpg",
+        "url": "/images/starbucks-rewards-experience.webp",
         "alt": "Logo de Starbucks Rewards con el icónico emblema de la sirena sobre sobre fondo verde oscuro."
       }
     },
@@ -255,7 +255,7 @@
         ]
       },
       "image": {
-        "url": "/images/oscilloscope-experience.jpg",
+        "url": "/images/oscilloscope-experience.webp",
         "alt": "Logo de Oscilloscope Laboratories sobre fondo cósmico."
       }
     }

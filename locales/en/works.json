@@ -42,7 +42,7 @@
         ]
       },
       "image": {
-        "url": "/images/sustainability-experience.jpg",
+        "url": "/images/sustainability-experience.webp",
         "alt": "Amazon Sustainability logo with modern typography."
       }
     },
@@ -88,7 +88,7 @@
         ]
       },
       "image": {
-        "url": "/images/climate-pledge-experience.jpg",
+        "url": "/images/climate-pledge-experience.webp",
         "alt": "Green leaves turning into skyscrapers with the text 'The Climate Pledge'."
       }
     },
@@ -128,7 +128,7 @@
         ]
       },
       "image": {
-        "url": "/images/passport-experience.jpg",
+        "url": "/images/passport-experience.webp",
         "alt": "The Climate Pledge Passport logo on a light blue background."
       }
     },
@@ -174,7 +174,7 @@
         ]
       },
       "image": {
-        "url": "/images/saudi-experience.jpg",
+        "url": "/images/saudi-experience.webp",
         "alt": "'Saudi' logo in white on a purple background with 'Welcome to Arabia'."
       }
     },
@@ -214,7 +214,7 @@
         ]
       },
       "image": {
-        "url": "/images/starbucks-rewards-experience.jpg",
+        "url": "/images/starbucks-rewards-experience.webp",
         "alt": "Starbucks Rewards logo with mermaid icon on dark green background."
       }
     },
@@ -254,7 +254,7 @@
         ]
       },
       "image": {
-        "url": "/images/oscilloscope-experience.jpg",
+        "url": "/images/oscilloscope-experience.webp",
         "alt": "Oscilloscope Laboratories logo on a cosmic background."
       }
     }
