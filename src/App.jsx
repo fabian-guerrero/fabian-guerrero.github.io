@@ -1,7 +1,8 @@
 import { createRoot } from "react-dom/client";
 // import { ModalContainer } from "react-modal-global";
 import { StrictMode } from "react";
-import { ModalProvider } from "./modalContext";
+import { ModalProvider } from "./components/Modal/ModalProvider";
+import Modal from "./components/Modal/Modal";
 
 import Navbar from "./components/Navbar/Nabar";
 import Work from "./components/Work/Work";
@@ -20,15 +21,16 @@ if (import.meta.env.VITE_IS_PRODUCTION === "true") {
 const App = () => {
   return (
     <StrictMode>
-      <Navbar />
-      <main>
-        <Hero />
-        <Experience />
-        <ModalProvider>
+      <ModalProvider>
+        <Navbar />
+        <main>
+          <Hero />
+          <Experience />
           <Work />
-        </ModalProvider>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+        <Modal />
+      </ModalProvider>
     </StrictMode>
   );
 };

@@ -43,28 +43,26 @@ const Work = () => {
   }, []);
 
   return (
-    <>
-      <section className="container work" id="work">
-        <div ref={section}>
-          <h2 className="section-title heading-2">
-            {t("works", { ns: "common" })}
-          </h2>
-          <div className="work-card-container">
-            {works.map((work) => (
-              <WorkCard
-                key={work.id}
-                heading={work.name}
-                imageUrl={work.image.url}
-                imageAlt={work.image.alt}
-                technologies={work.technologies}
-                description={work.description}
-                relatedLinks={work.relatedLinks}
-              />
-            ))}
-          </div>
+    <section className="container work" id="work">
+      <div ref={section}>
+        <h2 className="section-title heading-2">
+          {t("works", { ns: "common" })}
+        </h2>
+        <div className="work-card-container">
+          {works.map((work) => (
+            <WorkCard
+              key={work.id}
+              heading={work.name}
+              imageUrl={work.image.url}
+              imageAlt={work.image.alt}
+              technologies={work.technologies}
+              description={work.description}
+              relatedLinks={work.relatedLinks}
+            />
+          ))}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

@@ -1,5 +1,5 @@
 import Tag from "../Tag/Tag";
-import { ModalContext } from "../../modalContext";
+import { ModalContext } from "../Modal/ModalContext";
 import { useContext } from "react";
 import WorkDetails from "../WorkDetails/WorkDetails";
 import "./work-card.scss";
@@ -12,7 +12,25 @@ const WorkCard = ({
   description,
   relatedLinks,
 }) => {
-  let { handleModal } = useContext(ModalContext);
+  const { openModal } = useContext(ModalContext);
+
+  const handleOpen = (
+    heading,
+    imageUrl,
+    imageAlt,
+    description,
+    relatedLinks,
+  ) => {
+    openModal(
+      <WorkDetails
+        heading={heading}
+        imageUrl={imageUrl}
+        imageAlt={imageAlt}
+        description={description}
+        relatedLinks={relatedLinks}
+      />,
+    );
+  };
 
   const enterKey = 13;
   const spaceKey = 32;
@@ -20,15 +38,7 @@ const WorkCard = ({
   function handleKeyDown(e) {
     if (e.keyCode === enterKey || e.keyCode === spaceKey) {
       e.preventDefault();
-      handleModal(
-        <WorkDetails
-          heading={heading}
-          imageUrl={imageUrl}
-          imageAlt={imageAlt}
-          description={description}
-          relatedLinks={relatedLinks}
-        />,
-      );
+      handleOpen(heading, imageUrl, imageAlt, description, relatedLinks);
     }
   }
 
@@ -39,15 +49,7 @@ const WorkCard = ({
         tabIndex="0"
         role="button"
         onClick={() =>
-          handleModal(
-            <WorkDetails
-              heading={heading}
-              imageUrl={imageUrl}
-              imageAlt={imageAlt}
-              description={description}
-              relatedLinks={relatedLinks}
-            />,
-          )
+          handleOpen(heading, imageUrl, imageAlt, description, relatedLinks)
         }
         onKeyDown={handleKeyDown}
       >
