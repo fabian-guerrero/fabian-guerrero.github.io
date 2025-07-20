@@ -27,14 +27,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Check and add .nojekyll
-        run: |
-          if [ -d dist ]; then
-            touch src/dist/.nojekyll
-          else
-            echo "❌ Error: dist/ folder not found after build"
-            exit 1
-          fi
+      - name: Add .nojekyll
+        run: echo > src/dist/.nojekyll
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
