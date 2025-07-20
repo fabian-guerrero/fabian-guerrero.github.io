@@ -30,7 +30,7 @@ jobs:
       - name: Check and add .nojekyll
         run: |
           if [ -d dist ]; then
-            touch dist/.nojekyll
+            touch src/dist/.nojekyll
           else
             echo "❌ Error: dist/ folder not found after build"
             exit 1
