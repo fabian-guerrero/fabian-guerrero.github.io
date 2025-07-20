@@ -23,4 +23,5 @@ export default defineConfig({
   },
   plugins: [svgr(), react()],
   root: "src",
+  base: "/",
 });
