@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
+  base: "/",
   build: {
+    outDir: "dist",
     rollupOptions: {
       output: {
         manualChunks: {
@@ -23,5 +25,4 @@ export default defineConfig({
   },
   plugins: [svgr(), react()],
   root: "src",
-  base: "/",
 });
