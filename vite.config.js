@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
-  base: "/",
+  base: "/fabian-guerrero.github.io/",
   build: {
     outDir: "dist",
     rollupOptions: {
@@ -24,5 +24,4 @@ export default defineConfig({
     },
   },
   plugins: [svgr(), react()],
-  root: "src",
 });
