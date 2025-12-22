@@ -5,6 +5,7 @@ export function useAnalytics() {
     const gaId = import.meta.env.VITE_GA_ID;
     const isProd = import.meta.env.MODE === "production";
 
+    
     if (!isProd || !gaId) return;
 
     const script = document.createElement("script");
