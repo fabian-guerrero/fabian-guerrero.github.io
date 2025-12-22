@@ -10,15 +10,11 @@ import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 
-import ReactGA from "react-ga4";
-const TRACKING_ID = "G-6FK9MNVQPF";
-
-if (import.meta.env.VITE_IS_PRODUCTION === "true") {
-  ReactGA.initialize(TRACKING_ID);
-  ReactGA.send({ hitType: "pageview", page: "/index", title: "Home Page" });
-}
+import { useAnalytics } from "./useAnalytics";
 
 const App = () => {
+  useAnalytics();
+
   return (
     <StrictMode>
       <ModalProvider>
