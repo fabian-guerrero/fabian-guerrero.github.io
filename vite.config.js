@@ -6,7 +6,8 @@ export default defineConfig({
   root: "src",
   base: "/fabian-guerrero.github.io/",
   build: {
-    outDir: "dist",
+    outDir: "../dist",
+    emptyOutDir: true,
     rollupOptions: {
       output: {
         manualChunks: {
