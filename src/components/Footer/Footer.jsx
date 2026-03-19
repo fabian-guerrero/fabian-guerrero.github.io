@@ -21,7 +21,7 @@ const Footer = () => {
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 2,
+        duration: 0.8,
         scrollTrigger: {
           trigger: el,
           start: "50% bottom",

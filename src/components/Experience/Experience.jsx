@@ -27,8 +27,8 @@ const Experience = () => {
       {
         y: 0,
         opacity: 1,
-        duration: 2,
-        delay: 1,
+        duration: 0.8,
+        delay: 0.6,
         scrollTrigger: {
           trigger: el,
           start: "top 75%",

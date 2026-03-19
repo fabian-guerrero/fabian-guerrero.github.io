@@ -28,7 +28,7 @@ const Work = () => {
       {
         y: 0,
         opacity: 1,
-        duration: 2,
+        duration: 0.8,
         scrollTrigger: {
           trigger: el,
           start: "top 75%",
