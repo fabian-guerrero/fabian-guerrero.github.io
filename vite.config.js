@@ -4,7 +4,7 @@ import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   root: "src",
-  base: "fabian-guerrero.github.io/",
+  base: "/",
   build: {
     outDir: "../dist",
     emptyOutDir: true,
