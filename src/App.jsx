@@ -10,11 +10,11 @@ import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 
-import { useAnalytics } from "./useAnalytics";
+import { initGA } from "./utils/analytics";
+
+initGA();
 
 const App = () => {
-  useAnalytics();
-
   return (
     <StrictMode>
       <ModalProvider>
